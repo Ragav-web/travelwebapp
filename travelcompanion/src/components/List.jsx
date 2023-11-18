@@ -11,12 +11,6 @@ const List = ({ places, childClicked, isLoading })  =>{
     const [rating, setRating] = useState('');
 
     const [elRefs,setElRefs]= useState([]);
-
-    // useEffect(() => {
-    //   const refs = Array(places?.length).fill().map((_, i)=>refs[i] || createRef());
-
-    //   setElRefs(refs);
-    // }, [places]);
        
     
     return(
